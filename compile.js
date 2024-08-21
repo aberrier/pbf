@@ -471,7 +471,7 @@ function getTsType(field) {
     else if (field.type === 'bytes') type = 'Uint8Array';
     else if (field.type === 'bool') type = 'boolean';
 
-    return field.repeated ? `Array<${type}>` : type;
+    return field.repeated ? `${type}[]` : type;
 }
 
 function getMapTsType(fields) {
