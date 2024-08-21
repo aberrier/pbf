@@ -43,11 +43,11 @@ export function writeCustomType(obj, pbf) {
  * @property {boolean} [flag]
  * @property {number} [weight]
  * @property {number} [id]
- * @property {Array<string>} tags
- * @property {Array<number>} numbers
+ * @property {string[]} tags
+ * @property {number[]} numbers
  * @property {Uint8Array} [bytes]
  * @property {CustomType} [custom]
- * @property {Array<MessageType>} types
+ * @property {MessageType[]} types
  */
 
 /**

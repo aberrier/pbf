@@ -4,8 +4,8 @@
 
 /**
  * @typedef {object} NotPacked
- * @property {Array<number>} value
- * @property {Array<number>} types
+ * @property {number[]} value
+ * @property {number[]} types
  */
 
 /**
@@ -38,8 +38,8 @@ export function writeNotPacked(obj, pbf) {
 
 /**
  * @typedef {object} FalsePacked
- * @property {Array<number>} value
- * @property {Array<number>} types
+ * @property {number[]} value
+ * @property {number[]} types
  */
 
 /**
@@ -72,8 +72,8 @@ export function writeFalsePacked(obj, pbf) {
 
 /**
  * @typedef {object} Packed
- * @property {Array<number>} value
- * @property {Array<number>} types
+ * @property {number[]} value
+ * @property {number[]} types
  */
 
 /**

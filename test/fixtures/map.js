@@ -37,7 +37,7 @@ export function writeEnvelope(obj, pbf) {
 }
 
 /**
- * @typedef {Object<string, string>} Envelope_FieldEntry1
+ * @typedef {Record<string, string>} Envelope_FieldEntry1
  */
 
 /**
@@ -69,7 +69,7 @@ export function writeEnvelope_FieldEntry1(obj, pbf) {
 }
 
 /**
- * @typedef {Object<string, number>} Envelope_FieldEntry2
+ * @typedef {Record<string, number>} Envelope_FieldEntry2
  */
 
 /**

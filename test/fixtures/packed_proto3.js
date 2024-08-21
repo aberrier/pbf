@@ -10,8 +10,8 @@ export const MessageType = {
 
 /**
  * @typedef {object} NotPacked
- * @property {Array<number>} value
- * @property {Array<MessageType>} types
+ * @property {number[]} value
+ * @property {MessageType[]} types
  */
 
 /**
@@ -44,8 +44,8 @@ export function writeNotPacked(obj, pbf) {
 
 /**
  * @typedef {object} FalsePacked
- * @property {Array<number>} value
- * @property {Array<MessageType>} types
+ * @property {number[]} value
+ * @property {MessageType[]} types
  */
 
 /**
@@ -78,7 +78,7 @@ export function writeFalsePacked(obj, pbf) {
 
 /**
  * @typedef {object} Packed
- * @property {Array<number>} value
+ * @property {number[]} value
  */
 
 /**

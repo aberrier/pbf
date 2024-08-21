@@ -41,7 +41,7 @@ export function writeEmbeddedType(obj, pbf) {
 
 /**
  * @typedef {object} EmbeddedTypeContainer
- * @property {Array<EmbeddedTypeContainerInner>} values
+ * @property {EmbeddedTypeContainerInner[]} values
  */
 
 /**

@@ -4,7 +4,7 @@
 
 /**
  * @typedef {object} Tile
- * @property {Array<TileLayer>} layers
+ * @property {TileLayer[]} layers
  */
 
 /**
@@ -93,9 +93,9 @@ export function writeTileValue(obj, pbf) {
 /**
  * @typedef {object} TileFeature
  * @property {number} [id]
- * @property {Array<number>} tags
+ * @property {number[]} tags
  * @property {TileGeomType} [type]
- * @property {Array<number>} geometry
+ * @property {number[]} geometry
  */
 
 /**
@@ -134,9 +134,9 @@ export function writeTileFeature(obj, pbf) {
  * @typedef {object} TileLayer
  * @property {number} version
  * @property {string} name
- * @property {Array<TileFeature>} features
- * @property {Array<string>} keys
- * @property {Array<TileValue>} values
+ * @property {TileFeature[]} features
+ * @property {string[]} keys
+ * @property {TileValue[]} values
  * @property {number} [extent]
  */
 
