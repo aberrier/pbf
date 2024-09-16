@@ -508,7 +508,7 @@ function typeDef(type, name, fields = []) {
         }
 
         const type = getTsType(field);
-        const isRequired = field.required || field.repeated || field.map;
+        const isRequired = field.required;
 
         const name = isRequired ? field.name : `[${field.name}]`;
 
